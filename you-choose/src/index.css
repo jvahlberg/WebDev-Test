@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(0, 0, 93);
+    color: white;
+}
+
+button {
+    border: solid white 2px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    height: 35px;
+}
+
+button:hover {
+    border: solid black 2px;
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+    height: 35px;
+}
+
+h1 {
+    -webkit-text-stroke: 1px white;
+    color: black;
+    font-size: 40px;
+}
+
+select {
+    background-color: lightgray;
+    color: black;
+}
+
+option:hover {
+    background-color: rgb(120, 120, 120);
+    color: aqua;
+}
+
+textarea {
+    background-color: lightgray;
+    color: black;
+    resize: none;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#login-inner, #acct-inner{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    width: 30%;
+    padding: 10px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.accountInfo {
+    padding: 10px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.listsBtns {
+    display: flex;
+    gap: 10px;
+}
+
+.acctOptions {
+    display: flex;
+    align-items: center;
+}
+
+#choices {
+    white-space: pre-wrap;
+}
+
+#lists {
+    min-width: 100px;
+}
+
+#User {
+    border: 2px white solid;
+    height: 25px;
+    display: flex;
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+}

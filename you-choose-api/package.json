@@ -1,0 +1,24 @@
+{
+  "name": "you-choose-api",
+  "version": "1.0.0",
+  "description": "Backend for youchoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GUWebDevelopment/cpsc-332-web-development-final-project-jvahlberg.git"
+  },
+  "author": "Josh Vahlberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GUWebDevelopment/cpsc-332-web-development-final-project-jvahlberg/issues"
+  },
+  "homepage": "https://github.com/GUWebDevelopment/cpsc-332-web-development-final-project-jvahlberg#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
