@@ -14,12 +14,34 @@ Credits\
 License
 
 ## Installation
-To install, clone the repository.  Then navigate to the "you-choose" folder in a terminal.  Run "npm install" and then "npm start" and the app will open in a browser window.
+Prerequisites:
+- Have node installed on your computer
+
+Steps:
+1) Clone the repository
+2) Edit the config.json file in the you-choose-api folder to connect to your own database
+3) Open a ternmial and navigate to the you-choose-api folder, run "npm-start", and you should see a message saying "Listening on Port: 3001"
+4) Open a second terminal, navigate to the you-choose folder, run "npm-start", and the app will open in a browser window
+
 
 ## Usage
-- Add a list of choices (each item on a new line) in the text area on the left side of the app.  When you have added all the choices, click the button in the middle of the screen to pick one of them at random.\
-- Account log in / creation is stubbed out at the moment, not fully functional.\
-- List management is also rudimentary.  Two sample lists are available.  Can create a named list that will appear in the selector, but it is non-functional.
+### The Basics
+- Type in a list of things you need help choosing from in the text box on the left, with each thing on a new line.
+  - Edit and delete items as you wish
+  - Do not click the "Save List" button!
+- Click on the "Choose for me!" button in the middle, and your fate will be written in the text box above the button
+  - (This is your fate now.  Do not dare run from it)
+### Advanced
+- Create an account in order to access the rest of the functions
+  - Click on the "Create Account" button in the upper right, then enter in a unique username, then click the "Create Account" button in the center to confirm
+  - To log out, click log out in the upper right
+- To save your list of choices for later:
+  - Click the "New List" button, enter a name for your list, then click the "Confirm" button
+  - Click on your newly made (empty) list in the select box on the right.
+  - Enter in the list of items you want to save to this list, then click the "Save List" button
+  - The list is now saved, and you may safely log out and your list will be saved
+- To log in, click the "Log In" button, enter your username, then click the "Log In" button in the center of the screen
+- To delete a list that you have previously saved, click on the list you want to delete, then click the "Delete" button
 
 ## Contributing
 To add to this code, edit index.js and index.css as necessary.
